@@ -5,11 +5,11 @@
 # Menu
 menu:
   home: / || 首页
-  galleries: /galleries/ || 摄影
+  # galleries: /galleries/ || 摄影
   archives: /archives/ || 归档
-  tags: /tags/ || 标签
-  categories: /categories/ || 分类
-  about: /about/ || 关于
+  # tags: /tags/ || 标签
+  # categories: /categories/ || 分类
+  # about: /about/ || 关于
 
 # Color
 color:
@@ -30,11 +30,16 @@ color:
 
 # Favicon
 favicon:
-  small: /images/icons/favicon-16x16.png
-  medium: /images/icons/favicon-32x32.png
-  apple_touch_icon: /images/icons/apple-touch-icon.png
+  # small: /images/icons/favicon-16x16.png
+  # medium: /images/icons/favicon-32x32.png
+  # apple_touch_icon: /images/icons/apple-touch-icon.png
+  # safari_pinned_tab: /images/icons/stun-logo.svg
+  # msapplication: /images/icons/favicon-144x144.png
+  small: /images/icons/ic_launcher36.png
+  medium: /images/icons/ic_launcher36.png
+  apple_touch_icon: /images/icons/ic_launcher36.png
   safari_pinned_tab: /images/icons/stun-logo.svg
-  msapplication: /images/icons/favicon-144x144.png
+  msapplication: /images/icons/ic_launcher36.png
 
 # Font
 font:
@@ -46,7 +51,7 @@ background_image:
 
 # Loading
 loading:
-  gif: /images/theme/loading.gif
+  gif: /images/theme/animation_200_l21ws4h5.gif
   lottie:
 
 # Preview
@@ -63,10 +68,10 @@ preview:
     size: cover # css: background-size
     position: center # css: background-position
   motto:
-    default: 我在开了灯的床头下，想问问自己的心啊。
+    default: 热爱可抵漫长岁月。
     color: '#ffffff'
     typing: true
-    api: https://v2.jinrishici.com/one.json
+    # api: https://v2.jinrishici.com/one.json
     data_contents: ['data', 'content']
     # ex.one  =>  apl: https://v1.hitokoto.cn/?encode=text&c=i  data_contents:
     # ex.two  =>  api: https://v2.jinrishici.com/one.json  data_contents: ['data', 'content']
@@ -81,11 +86,11 @@ copyright: <p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  
 
 # Social
 social:
-  qq: tencent://message/?Menu=yes&uin=894519210 || iconQQ || '#12B7F5'
-  wechat: javascript:; || iconwechat-fill || '#09BB07'
-  instagram: https://www.instagram.com/izhaoo/ || iconinstagram || '#DA2E76'
-  github: https://github.com/zhaoo || icongithub-fill || '#9f7be1'
-  email: mailto:izhaoo@163.com || iconmail
+  qq: tencent://message/?Menu=yes&uin=945416992 || iconQQ || '#12B7F5'
+  # wechat: javascript:; || iconwechat-fill || '#09BB07'
+  # instagram: https://www.instagram.com/izhaoo/ || iconinstagram || '#DA2E76'
+  github: https://github.com/fofish || icongithub-fill || '#9f7be1'
+  email: mailto:fofish@163.com || iconmail
 
 # Override Scrollbar
 scrollbar:
@@ -149,7 +154,7 @@ toc:
 
 # Donate
 donate:
-  enable: true
+  enable: false # true
   alipay: https://pic.izhaoo.com/alipay.jpg
   wechat: https://pic.izhaoo.com/wechat.jpg
 
@@ -180,8 +185,8 @@ galleries:
 # --------------------------------------------------
 
 comments:
-  enable: false
-  type: valine # gitalk | valine | changyan
+  enable: true
+  type: gitalk # gitalk | valine | changyan
   button: true
 
 # Gitalk
@@ -239,7 +244,7 @@ lazyload:
   enable: true
   only_post: false
   loading:
-    gif: /images/theme/loading.gif
+    gif: /images/theme/animation_200_l21ws4h5.gif
     lottie:
 
 # FancyBox
